@@ -32,4 +32,4 @@ Proyecto con énfasis en replicar Scratch para la creación de código
 
 [Docs Info](https://github.com/darkelian/Tendencias/blob/main/Assets/Docs/Planeacion%20de%20la%20ejecucion%20-%20IIScratch%20-%20grupo%205.pdf)
 
-[Docs Proyect](https://github.com/darkelian/Tendencias/blob/main/Assets/Docs/Documentacio%CC%81nScratch.docx)
+[Docs Proyect](https://github.com/darkelian/Tendencias/blob/main/Assets/Docs/Documentacio%CC%81nScratch.pdf)
