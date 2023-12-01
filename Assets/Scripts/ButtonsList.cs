@@ -7,6 +7,7 @@ public class ButtonsList : MonoBehaviour
 {
     public List<GameObject> buttons;
     public GameObject content;
+    public ListBlock listBlock;
 
     public void isShow(GameObject gameObject)
     {
@@ -31,6 +32,7 @@ public class ButtonsList : MonoBehaviour
             if (bloque != null && bloque.isSelect)
             {
                 Destroy(child.gameObject);
+                listBlock.GetListBlockContent();
                 break;
             }
         }

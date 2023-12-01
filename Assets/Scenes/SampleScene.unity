@@ -2927,6 +2927,7 @@ GameObject:
   - component: {fileID: 1289345374}
   - component: {fileID: 1289345375}
   - component: {fileID: 1289345376}
+  - component: {fileID: 1289345377}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -2992,6 +2993,21 @@ MonoBehaviour:
   - {fileID: 1002197399}
   - {fileID: 2077792405}
   content: {fileID: 1936113187}
+  listBlock: {fileID: 1289345377}
+--- !u!114 &1289345377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289345372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f75a1bf91c4464b81441d0a5acef89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content: {fileID: 1936113187}
+  blocks: []
 --- !u!1 &1395232610
 GameObject:
   m_ObjectHideFlags: 0
@@ -3967,7 +3983,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1786075902
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4208,6 +4224,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1289345375}
         m_TargetAssemblyTypeName: XmlManager, Assembly-CSharp
         m_MethodName: LeerArchivo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1289345377}
+        m_TargetAssemblyTypeName: ListBlock, Assembly-CSharp
+        m_MethodName: GetListBlockContent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
