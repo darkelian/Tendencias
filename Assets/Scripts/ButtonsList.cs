@@ -8,6 +8,17 @@ public class ButtonsList : MonoBehaviour
     public List<GameObject> buttons;
     public GameObject content;
 
+    public void isShow(GameObject gameObject)
+    {
+        if (gameObject.activeSelf)
+        {
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            gameObject.SetActive(true);
+        }
+    }
     public void DeleteBlock()
     {
         // Recorrer cada hijo del objeto padre
