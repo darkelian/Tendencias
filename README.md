@@ -1,4 +1,4 @@
-![Unity](https://github.com/darkelian/Tendencias/blob/main/Assets/Images/ui/u.png)
+![U](https://github.com/darkelian/Tendencias/blob/main/Assets/Images/ui/U.png)
 # Tendencias Avanzadas de Software
 ## Proyecto Final
 ### Integrantes:
