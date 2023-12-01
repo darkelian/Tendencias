@@ -4,6 +4,11 @@
 ### Integrantes:
 
 #### Brayan Elian Peña Jaimes - 20192020106
+#### Luis Fernando Carreto Contreras - 20192020030
+#### Juan Sebastián Romero Sánchez – 20192020063
+#### Cristian Stiven Guzmán Tovar – 20192020089
+#### Guillermo Steven Cuesta Castellanos – 20192020102
+
 
 Proyecto con énfasis en replicar Scratch para la creación de código
 
