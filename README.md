@@ -9,4 +9,4 @@ Proyecto con énfasis en replicar Scratch para la creación de código
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
-![Demo](url_de_la_imagen)
+![Demo](https://github.com/darkelian/Tendencias/blob/main/Assets/Images/ui/Menu.png)
