@@ -21,5 +21,5 @@ Proyecto con énfasis en replicar Scratch para la creación de código
 - Unity hub versión 2022.3.9f1 ![Unity](https://github.com/darkelian/Tendencias/blob/main/Assets/Images/ui/unity.png)
 
 ## Como correr
-- diríjase a la carteta de Assets/Scenes
+- Diríjase a la carteta de Assets/Scenes
 - Abra la escena de SampleScene y dale play
