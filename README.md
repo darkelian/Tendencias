@@ -1,5 +1,5 @@
+![Unity](https://github.com/darkelian/Tendencias/blob/main/Assets/Images/ui/u.png)
 # Tendencias Avanzadas de Software
-## Universidad Distrital Francisco José de Caldas
 ## Proyecto Final
 ### Integrantes:
 
