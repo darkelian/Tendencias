@@ -5,17 +5,19 @@ using UnityEngine;
 public class BloqueAssignment : Bloque
 {
     static int count;
-    public BloqueAssignment(){
-        count++;
-    }
-
     public bool isSelect;
-
-    public string name = "variable"+conut;
-    public string value = count;
+    public string name;
+    public string value;
     public string type = "int";
+    public string valorXML;
 
-    public string valorXML = "<assignment name="${0}" value="${1}" type="${2}"/>", name, value, type;
+    public BloqueAssignment()
+    {
+        count++;
+        name = "variable" + count;
+        value = count.ToString();
+        valorXML = $"<assignment name=\"{name}\" value=\"{value}\" type=\"{type}\"/>";
+    }
 
 }
 

@@ -9,7 +9,10 @@ public class BloqueLoop : Bloque
     public string type = "int";
     public string range = "range(5)";
     public string i = "i";
+    public string valorXML;
 
-    public string valorXML = "<loop type="${0}" variable="${1}" range="${2}">", type, i, range ;
-
+    public BloqueLoop()
+    {
+        valorXML = $"<loop type=\"{type}\" variable=\"{i}\" range=\"{range}\"></loop>";
+    }
 }

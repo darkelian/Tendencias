@@ -7,14 +7,15 @@ public class BloqueFunction : Bloque
     public bool isSelect;
 
     static int count;
-    public BloqueFunction(){
-        count++;
-    }
-
-    public string name = "function"+conut;
-
+    public string name;
     public string returnType = "int";
+    public string valorXML;
 
-    public string valorXML = "<function name="${0}" return_type="${1}">", name, returnType;
+    public BloqueFunction()
+    {
+        count++;
+        name = "function" + count;
+        valorXML = $"<function name=\"{name}\" return_type=\"{returnType}\"></function>";
+    }
 
 }

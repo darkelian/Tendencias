@@ -6,11 +6,14 @@ public class BloqueConditional : Bloque
 {
     public bool isSelect;
 
-    public string variableName1 = "x"; 
-    public string variableName2 = "y"; 
+    public string variableName1 = "x";
+    public string variableName2 = "y";
     public string comparison = "<";
+    public string valorXML;
 
-    public string valorXML = "<conditional variable1="${0}" variable2="${1}" comparison="${2}">", variableName1, variableName2, comparison;
-
+    public BloqueConditional()
+    {
+        valorXML = $"<conditional variable1=\"{variableName1}\" variable2=\"{variableName2}\" comparison=\"{comparison}\"></conditional>";
+    }
 }
 

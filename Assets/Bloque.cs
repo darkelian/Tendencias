@@ -5,4 +5,5 @@ using UnityEngine;
 public class Bloque : MonoBehaviour
 {
     public bool isSelect;
+    public string valorXML;
 }
